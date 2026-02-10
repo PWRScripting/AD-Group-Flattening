@@ -1,1 +1,11 @@
+backup/
+!backup/.gitkeep
 
+evaluation/
+!evaluation/.gitkeep
+
+log/
+!log/.gitkeep
+
+result
+!result/.gitkeep
