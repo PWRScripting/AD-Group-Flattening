@@ -1,0 +1,17 @@
+{
+  "name": "AD_Main_Group",
+  "members": [
+    "Anna Schmidt",
+    "Max Mustermann",
+    "Peter Mueller",
+    {
+      "name": "AD_Sub_Group",
+      "members": [
+        "Anna Schmidt",
+        "Peter Mueller",
+        "Lisa Wagner",
+        "Thomas Becker"
+      ]
+    }
+  ]
+}
