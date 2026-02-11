@@ -2,7 +2,7 @@ backup/
 !backup/AD_Main_Group_11.02.2026.json
 
 evaluation/
-!evaluation/.gitkeep
+!evaluation/AD_Main_Group_evaluation_result.json
 
 log/
 !log/.gitkeep
