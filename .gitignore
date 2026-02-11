@@ -1,11 +1,11 @@
 backup/
-!backup/AD_Main_Group_11.02.2026.json
+!backup/AD_Main_Group_11-02-2026.json
 
 evaluation/
 !evaluation/AD_Main_Group_evaluation_result.json
 
 log/
-!log/.gitkeep
+!log/AD_Main_Group_log_11-02.2026.txt
 
 result
 !result/.gitkeep
