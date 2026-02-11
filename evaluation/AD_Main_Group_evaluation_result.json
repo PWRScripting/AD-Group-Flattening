@@ -1,0 +1,30 @@
+[
+  {
+    "samAccountName": "aschmidt",
+    "DisplayName": "Anna Schmidt"
+  },
+  {
+    "samAccountName": "mmustermann",
+    "DisplayName": "Max Mustermann"
+  },
+  {
+    "samAccountName": "pmueller",
+    "DisplayName": "Peter Mueller"
+  },
+  {
+    "samAccountName": "aschmidt",
+    "DisplayName": "Anna Schmidt"
+  },
+  {
+    "samAccountName": "pmueller",
+    "DisplayName": "Peter Mueller"
+  },
+  {
+    "samAccountName": "lwagner",
+    "DisplayName": "Lisa Wagner"
+  },
+  {
+    "samAccountName": "tbecker",
+    "DisplayName": "Thomas Becker"
+  }
+]
