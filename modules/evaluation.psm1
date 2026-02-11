@@ -1,3 +1,5 @@
+# This module evaluates the users and resolve the subgroups of the Maingroup.
+
 function Get-GroupUserEvaluation {
     param (
        [Parameter(Mandatory)][string]$groupName,
@@ -6,7 +8,7 @@ function Get-GroupUserEvaluation {
     )
     Write-Log "--------------------------------------------------------------------" INFO
     Write-Log ""
-    Write-Log "Starte User-Auswertung der Gruppe: $($groupName)" INFO
+    Write-Log "Start user evaluation of group: $($groupName)" INFO
 
     $users = @{}
 
@@ -17,11 +19,11 @@ function Get-GroupUserEvaluation {
         )
         
         if ($depth -gt $maxDepth) {
-            Write-Log "Maximale Tiefe erreicht bei Gruppe: $($group)" ERROR
+            Write-Log "Maximum depth reached $($group)" ERROR
             return
         }
 
-        Write-Log "Untersuche Gruppe: $($group) (Tiefe $($depth))"
+        Write-Log "Investigate group: $($group) (Depth: $($depth))"
 
         $members = Get-ADGroupMember -Identity $group
 
@@ -43,14 +45,14 @@ function Get-GroupUserEvaluation {
     }
 
     Resolve-Group -group $groupName -depth 0
-    $resultFile = Join-Path $outputPath "$($groupName)_auswertung_result.json"
+    $resultFile = Join-Path $outputPath "$($groupName)_evaluation_result.json"
 
     $users.Values | 
     Sort-Object samAccountName | 
     Convertto-Json -Depth 3 | 
     Set-Content -Path $resultFile -Encoding UTF8
 
-    Write-Log "User-Auswertung abgeschlossen. Ergebnis: $($resultFile)" SUCCESS
+    Write-Log "User evaluation finished. Result: $($resultFile)" SUCCESS
     return $resultFile
 }
 
