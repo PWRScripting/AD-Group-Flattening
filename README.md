@@ -95,7 +95,7 @@ This Directorystructure allows flexible reuse of the script across different env
 
 ```bash
 git clone https://github.com/PWRScripting/AD-Group-Flattening.git
-cd PS_ActiveDirectory_Flattening
+cd AD-Group-Flattening
 ````
 
 2. Adjust the configuration file if necessary:
