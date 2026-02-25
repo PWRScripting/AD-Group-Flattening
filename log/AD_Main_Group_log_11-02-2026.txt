@@ -1,5 +1,5 @@
 [14:18:54][INFO]: Log file created: C:\CODE\AD-Group-Flattening\log\active_log.txt
-[14:18:54][INFO]: Script started by user: SotEEluna
+[14:18:54][INFO]: Script started by user: Patrick
 [14:18:54][INFO]: Enter a group name: 
 [14:18:58][INPUT]: Group name: AD_Main_Group
 [14:18:58][INFO]: Start by creating a backup of the group: AD_Main_Group
