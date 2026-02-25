@@ -78,7 +78,9 @@ The following directories are **configured via `config/config.json`** and are cr
 All directory paths can be adjusted in the configuration file: `config/config.json`
 
 This Directorystructure allows flexible reuse of the script across different environments without modifying the code.
+
 I filled this repository with mock data to show what the result looks like when using my script.
+
 ---
 
 ## Requirements
